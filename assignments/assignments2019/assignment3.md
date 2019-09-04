@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /assignments/assignments2018/assignment3/
+permalink: /assignments/assignments2019/assignment3/
 ---
 
 In this assignment you will implement recurrent networks, and apply them to image captioning on Microsoft COCO. You will also explore methods for visualizing the features of a pretrained model on ImageNet, and also this model to implement Style Transfer. Finally, you will train a Generative Adversarial Network to generate images that look like a training dataset!
@@ -17,9 +17,9 @@ The goals of this assignment are as follows:
 
 ## Setup
 
-Get the code as a zip file [here](http://compsci682-fa18.github.io/assignments/assignments2018/assignment3.zip).
+Get the code as a zip file [here](http://compsci682-fa19.github.io/assignments/assignments2019/assignment3.zip).
 
-You can follow the setup instructions [here](http://compsci682-fa18.github.io/setup-instructions/).
+You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup-instructions/).
 
 If you haven't already, you'll need to install either TensorFlow 1.7 (installation instructions [here](https://www.tensorflow.org/versions/r1.7/install/)) or PyTorch 0.4 (instructions [here](http://pytorch.org/)) depending on which notebooks you decide to complete.
 
@@ -38,15 +38,15 @@ chmod +x ./*.sh
 ```
 
 
-### Start IPython:
-After you have downloaded the data, you should start the IPython notebook server from the
-`assignment3` directory, with the `jupyter notebook` command. (See the [Google Cloud Tutorial](http://compsci682-fa18.github.io/gce-tutorial/) for any additional steps you may need to do for setting this up, if you are working remotely)
+### Start Jupyter:
+After you have downloaded the data, you should start the Jupyter notebook server from the
+`assignment3` directory, with the `jupyter notebook` command. (See the [Google Cloud Tutorial](http://compsci682-fa19.github.io/gce-tutorial/) for any additional steps you may need to do for setting this up, if you are working remotely)
 
 ### Some Notes
 **NOTE 1:** This year, the `assignment3` code has been tested to be compatible with python version `3.6` (it may work with other versions of `3.x`, but we won't be officially supporting them). You will need to make sure that during your virtual environment setup that the correct version of `python` is used. You can confirm your python version by (1) activating your virtualenv and (2) running `which python`.
 
 **NOTE 2:** If you are working in a virtual environment on OSX, you may *potentially* encounter
-errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). In our testing, it seems that this issue is no longer present with the most recent version of matplotlib, but if you do end up running into this issue you may have to use the `start_ipython_osx.sh` script from the `assignment3` directory (instead of `jupyter notebook` above) to launch your IPython notebook server. Note that you may have to modify some variables within the script to match your version of python/installation directory. The script assumes that your virtual environment is named `.env`.
+errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). In our testing, it seems that this issue is no longer present with the most recent version of matplotlib, but if you do end up running into this issue you may have to use the `start_ipython_osx.sh` script from the `assignment3` directory (instead of `jupyter notebook` above) to launch your Jupyter notebook server. Note that you may have to modify some variables within the script to match your version of python/installation directory. The script assumes that your virtual environment is named `.env`.
 
 #### You can do Questions 3, 4, and 5 in TensorFlow or PyTorch. There are two versions of each of these notebooks, one for TensorFlow and one for PyTorch. No extra credit will be awarded if you do a question in both TensorFlow and PyTorch.
 

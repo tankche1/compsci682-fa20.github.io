@@ -22,7 +22,7 @@ We recommend using the free [Anaconda Python distribution](https://www.anaconda.
 **Anaconda Virtual environment:**
 Once you have Anaconda installed, it makes sense to create a virtual environment for the course. If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine. To set up a virtual environment, run (in a terminal)
 
-`conda create -n cs682 python=3.6 anaconda`
+`conda create -n cs682 python=3.6 scipy imageio matplotlib jupyter`
 
 to create an environment called `cs682`.
 

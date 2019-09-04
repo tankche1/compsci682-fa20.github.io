@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /assignments/assignments2018/assignment2/
+permalink: /assignments/assignments2019/assignment2/
 ---
 
 In this assignment you will practice writing backpropagation code, and training
@@ -19,9 +19,9 @@ are as follows:
 - gain experience with a major deep learning framework, such as **TensorFlow** or **PyTorch**.
 
 ## Setup
-Get the code as a zip file [here](http://compsci682-fa18.github.io/assignments/assignments2018/assignment2.zip).
+Get the code as a zip file [here](http://compsci682-fa19.github.io/assignments/assignments2019/assignment2.zip).
 
-You can follow the setup instructions [here](http://compsci682-fa18.github.io/setup-instructions/). If you would like to use good CPU/GPU resources, you can use [Google Cloud](http://compsci682-fa18.github.io/gce-tutorial/).
+You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup-instructions/). If you would like to use good CPU/GPU resources, you can use [Google Cloud](http://compsci682-fa19.github.io/gce-tutorial/).
 
 <!-- **NOTE: Our initial release of the assignment did not include the PyTorch and TensorFlow notebooks for Q5. These have now been finalized, and the zip file has been updated with these notebooks.** -->
 
@@ -48,37 +48,37 @@ python setup.py build_ext --inplace
 **NOTE:** Check [this page](https://github.com/cython/cython/wiki/CythonExtensionsOnWindows) if you are using windows and having the "unable to find vcvarsall.bat" error.
 
 
-### Start IPython:
-After you have the CIFAR-10 data, you should start the IPython notebook server from the
+### Start Jupyter:
+After you have the CIFAR-10 data, you should start the Jupyter notebook server from the
 `assignment2` directory, with the `jupyter notebook` command.
 <!--
-After you have the CIFAR-10 data, you should start the IPython notebook server from the
+After you have the CIFAR-10 data, you should start the Jupyter notebook server from the
 `assignment2` directory, with the `jupyter notebook` command. (See the [Google Cloud Tutorial](http://cs231n.github.io/gce-tutorial/) for any additional steps you may need to do for setting this up, if you are working remotely). -->
 
-If you are unfamiliar with IPython, you can also refer to [IPython tutorial](/ipython-tutorial).
+If you are unfamiliar with Jupyter, you can also refer to [Jupyter tutorial](/ipython-tutorial).
 
 ### Some Notes
 **NOTE 1:** This year, the `assignment2` code has been tested to be compatible with python version `3.6` (it may work with other versions of `3.x`, but we won't be officially supporting them). You will need to make sure that during your virtual environment setup that the correct version of `python` is used. You can confirm your python version by (1) activating your virtualenv and (2) running `which python`.
 
 **NOTE 2:** If you are working in a virtual environment on OSX, you may *potentially* encounter
-errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). In our testing, it seems that this issue is no longer present with the most recent version of matplotlib, but if you do end up running into this issue you may have to use the `start_ipython_osx.sh` script from the `assignment2` directory (instead of `jupyter notebook` above) to launch your IPython notebook server. Note that you may have to modify some variables within the script to match your version of python/installation directory. The script assumes that your virtual environment is named `.env`.
+errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). In our testing, it seems that this issue is no longer present with the most recent version of matplotlib, but if you do end up running into this issue you may have to use the `start_ipython_osx.sh` script from the `assignment2` directory (instead of `jupyter notebook` above) to launch your Jupyter notebook server. Note that you may have to modify some variables within the script to match your version of python/installation directory. The script assumes that your virtual environment is named `.env`.
 
 ### Q1: Fully-connected Neural Network (20 points)
-The IPython notebook `FullyConnectedNets.ipynb` will introduce you to our
+The Jupyter notebook `FullyConnectedNets.ipynb` will introduce you to our
 modular layer design, and then use those layers to implement fully-connected
 networks of arbitrary depth. To optimize these models you will implement several
 popular update rules.
 
 ### Q2: Batch Normalization (30 points)
-In the IPython notebook `BatchNormalization.ipynb` you will implement batch
+In the Jupyter notebook `BatchNormalization.ipynb` you will implement batch
 normalization, and use it to train deep fully-connected networks.
 
 ### Q3: Dropout (10 points)
-The IPython notebook `Dropout.ipynb` will help you implement Dropout and explore
+The Jupyter notebook `Dropout.ipynb` will help you implement Dropout and explore
 its effects on model generalization.
 
 ### Q4: Convolutional Networks (30 points)
-In the IPython Notebook `ConvolutionalNetworks.ipynb` you will implement several new layers that are commonly used in convolutional networks.
+In the Jupyter Notebook `ConvolutionalNetworks.ipynb` you will implement several new layers that are commonly used in convolutional networks.
 
 ### Q5: PyTorch / TensorFlow on CIFAR-10 (10 points)
 For this last part, you will be working in either [TensorFlow](https://www.tensorflow.org/install/) or [PyTorch](https://pytorch.org/), two popular and powerful deep learning frameworks. **You only need to complete ONE of these two notebooks.** You do NOT need to do both, and we will _not_ be awarding extra credit to those who do.
