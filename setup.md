@@ -16,11 +16,11 @@ You can work on the assignment in one of two ways: locally on your own machine, 
 See [Google Cloud Tutorial](http://compsci682-fa18.github.io/gce-tutorial/)
 
 ### Working locally
-**Installing Anaconda:**
-We recommend using the free [Anaconda Python distribution](https://www.anaconda.com/download/), which provides an easy way for you to handle package dependencies. Please be sure to download the Python 3 version, which currently installs Python 3.6. We are no longer supporting Python 2.
+**Installing Conda:**
+We recommend using the free [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda Python distribution](https://www.anaconda.com/download/), which provides an easy way for you to handle package dependencies. Please be sure to download the Python 3 version, which currently installs Python 3.6. We are no longer supporting Python 2.
 
-**Anaconda Virtual environment:**
-Once you have Anaconda installed, it makes sense to create a virtual environment for the course. If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine. To set up a virtual environment, run (in a terminal)
+**Conda Virtual environment:**
+Once you have Conda installed, it makes sense to create a virtual environment for the course. If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine. To set up a virtual environment, run (in a terminal)
 
 `conda create -n cs682 python=3.6 scipy imageio matplotlib jupyter`
 
@@ -28,15 +28,15 @@ to create an environment called `cs682`.
 
 Then, to activate and enter the environment, run
 
-`source activate cs682`
+`conda activate cs682` (or `source activate cs682` on older versions)
 
 To exit, you can simply close the window, or run
 
-`source deactivate cs682`
+`conda deactivate cs682` (or `source deactivate cs682` on older versions)
 
 Note that every time you want to work on the assignment, you should run `source activate cs682` (change to the name of your virtual env).
 
-You may refer to [this page](https://conda.io/docs/user-guide/tasks/manage-environments.html) for more detailed instructions on managing virtual environments with Anaconda.
+You may refer to [this page](https://conda.io/docs/user-guide/tasks/manage-environments.html) for more detailed instructions on managing virtual environments with Conda.
 
 **Python virtualenv:**
 Alternatively, you may use python [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for the project. To set up a virtual environment, run the following:
