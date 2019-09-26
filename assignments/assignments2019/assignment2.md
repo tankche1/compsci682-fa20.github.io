@@ -85,7 +85,7 @@ For this last part, you will be working in either [TensorFlow](https://www.tenso
 
 Open up either `PyTorch.ipynb` or `TensorFlow.ipynb`. There, you will learn how the framework works, culminating in training a  convolutional network of your own design on CIFAR-10 to get the best performance you can.
 
-**NOTE**: The PyTorch notebook requires PyTorch version 0.4, which was released on 4/24/2018. You can install this version of PyTorch using conda or pip by following the instructions here: http://pytorch.org/
+**NOTE**: The PyTorch notebook requires PyTorch version >=0.4 (up to 1.2 as of 09/26/2019). You can install this version of PyTorch using conda or pip by following the instructions here: http://pytorch.org/
 
 
 ### Submitting your work
