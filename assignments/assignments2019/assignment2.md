@@ -38,7 +38,7 @@ cd cs682/datasets
 Convolutional Neural Networks require a very
 efficient implementation. We have implemented of the functionality using
 [Cython](http://cython.org/); you will need to compile the Cython extension
-before you can run the code. From the `assignment2/asgn2` directory, run the following
+before you can run the code. From the `assignment2/cs682` directory, run the following
 command:
 
 ```bash
