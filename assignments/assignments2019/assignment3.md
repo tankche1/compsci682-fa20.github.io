@@ -21,7 +21,16 @@ Get the code as a zip file [here](http://compsci682-fa19.github.io/assignments/a
 
 You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup-instructions/).
 
-If you haven't already, you'll need to install either TensorFlow 1.7 (installation instructions [here](https://www.tensorflow.org/versions/r1.7/install/)) or PyTorch 0.4 (instructions [here](http://pytorch.org/)) depending on which notebooks you decide to complete.
+If you haven't already, you'll need to install either TensorFlow 1.7 (installation instructions [here](https://www.tensorflow.org/versions/r1.7/install/)) or PyTorch (>=0.4, up to 1.3 as of 10/23/2019, instructions [here](http://pytorch.org/)) depending on which notebooks you decide to complete.
+
+If you face difficulty re-using the python environment used in ealier assignments, we suggest that you create a fresh one. This involves only a few simple steps (using conda and pytorch-cpu for the example): 
+```bash
+conda remove --name cs682 --all  # delete old environment if there is one
+conda create --name cs682 python=3.6
+conda activate cs682
+pip install -r requirements.txt
+conda install pytorch torchvision cpuonly -c pytorch
+```
 
 ### Download data:
 Once you have the starter code, you will need to download the COCO captioning data,  pretrained SqueezeNet model (TensorFlow-only), and a few ImageNet validation images.
