@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /assignments/assignments2019/assignment1/
+permalink: /assignments/assignments2020/assignment1/
 ---
 
 In this assignment you will practice putting together a simple image classification pipeline, based on the k-Nearest Neighbor or the SVM/Softmax classifier. The goals of this assignment are as follows:
@@ -18,9 +18,9 @@ In this assignment you will practice putting together a simple image classificat
 
 ## Setup
 
-Get the code as a zip file [here](http://compsci682-fa19.github.io/assignments/assignments2019/assignment1.zip).
+Get the code as a zip file [here](http://compsci682-fa20.github.io/assignments/assignments2020/assignment1.zip).
 
-You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup-instructions/).
+You can follow the setup instructions [here](http://compsci682-fa20.github.io/setup-instructions/).
 <!--You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup/).-->
 
 ### Download data:
@@ -68,7 +68,7 @@ The Jupyter Notebook **features.ipynb** will walk you through this exercise, in 
 ### Submitting your work
 There are **_two_** steps to submitting your assignment:
 
-**1.** Submit a pdf of the completed iPython notebooks to [Gradescope](https://gradescope.com/courses/24357). If you are enrolled in the course, then you should have already been automatically added to the course on Gradescope. 
+**1.** Submit a pdf of the completed iPython notebooks to [Gradescope](TODO). If you are enrolled in the course, then you should have already been automatically added to the course on Gradescope. 
 
 To produce a pdf of your work, you can first convert each of the .ipynb files to HTML. To do this, simply run 
 
@@ -80,4 +80,4 @@ for each of the notebooks, where `FILE.ipynb` is the notebook you want to conver
 **Important:** _Please make sure that the submitted notebooks have been run and the cell outputs are visible._
 
 
-**2.** Submit a zip file of your assignment to [Gradescope](https://gradescope.com/courses/24357). To do this, run the provided `collectSubmission.sh` script, which will produce a file called `assignment1.zip`. 
+**2.** Submit a zip file of your assignment to [Gradescope](TODO). To do this, run the provided `collectSubmission.sh` script, which will produce a file called `assignment1.zip`. 

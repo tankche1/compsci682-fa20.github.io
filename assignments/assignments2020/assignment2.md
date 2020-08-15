@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /assignments/assignments2019/assignment2/
+permalink: /assignments/assignments2020/assignment2/
 ---
 
 In this assignment you will practice writing backpropagation code, and training
@@ -19,9 +19,9 @@ are as follows:
 - gain experience with a major deep learning framework, such as **TensorFlow** or **PyTorch**.
 
 ## Setup
-Get the code as a zip file [here](http://compsci682-fa19.github.io/assignments/assignments2019/assignment2.zip).
+Get the code as a zip file [here](http://compsci682-fa20.github.io/assignments/assignments2020/assignment2.zip).
 
-You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup-instructions/). If you would like to use good CPU/GPU resources, you can use [Google Cloud](http://compsci682-fa19.github.io/gce-tutorial/).
+You can follow the setup instructions [here](http://compsci682-fa20.github.io/setup-instructions/). If you would like to use good CPU/GPU resources, you can use [Google Cloud](http://compsci682-fa20.github.io/gce-tutorial/).
 
 <!-- **NOTE: Our initial release of the assignment did not include the PyTorch and TensorFlow notebooks for Q5. These have now been finalized, and the zip file has been updated with these notebooks.** -->
 
@@ -91,7 +91,7 @@ Open up either `PyTorch.ipynb` or `TensorFlow.ipynb`. There, you will learn how 
 ### Submitting your work
 There are **_two_** steps to submitting your assignment:
 
-**1.** Submit a pdf of the completed iPython notebooks to [Gradescope](https://gradescope.com/courses/24357). If you are enrolled in the course, then you should have already been automatically added to the course on Gradescope.
+**1.** Submit a pdf of the completed iPython notebooks to [Gradescope](TODO). If you are enrolled in the course, then you should have already been automatically added to the course on Gradescope.
 
 To produce a pdf of your work, you can first convert each of the .ipynb files to HTML. To do this, simply run from your assignment directory
 
@@ -102,4 +102,4 @@ for each of the notebooks, where `FILE.ipynb` is the notebook you want to conver
 
 **Important:** _Please make sure that the submitted notebooks have been run and the cell outputs are visible._
 
-**2.** Submit a zip file of your assignment to [Gradescope](https://gradescope.com/courses/24357). To do this, run the provided `collectSubmission.sh` script, which will produce a file called `assignment2.zip`.
+**2.** Submit a zip file of your assignment to [Gradescope](TODO). To do this, run the provided `collectSubmission.sh` script, which will produce a file called `assignment2.zip`.

@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /assignments/assignments2019/assignment3/
+permalink: /assignments/assignments2020/assignment3/
 ---
 
 In this assignment you will implement recurrent networks, and apply them to image captioning on Microsoft COCO. You will also explore methods for visualizing the features of a pretrained model on ImageNet, and also this model to implement Style Transfer. Finally, you will train a Generative Adversarial Network to generate images that look like a training dataset!
@@ -17,9 +17,9 @@ The goals of this assignment are as follows:
 
 ## Setup
 
-Get the code as a zip file [here](http://compsci682-fa19.github.io/assignments/assignments2019/assignment3.zip).
+Get the code as a zip file [here](http://compsci682-fa20.github.io/assignments/assignments2020/assignment3.zip).
 
-You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup-instructions/).
+You can follow the setup instructions [here](http://compsci682-fa20.github.io/setup-instructions/).
 
 If you haven't already, you'll need to install either TensorFlow 1.7 (installation instructions [here](https://www.tensorflow.org/versions/r1.7/install/)) or PyTorch (>=0.4, up to 1.3 as of 10/23/2019, instructions [here](http://pytorch.org/)) depending on which notebooks you decide to complete.
 
@@ -49,7 +49,7 @@ chmod +x ./*.sh
 
 ### Start Jupyter:
 After you have downloaded the data, you should start the Jupyter notebook server from the
-`assignment3` directory, with the `jupyter notebook` command. (See the [Google Cloud Tutorial](http://compsci682-fa19.github.io/gce-tutorial/) for any additional steps you may need to do for setting this up, if you are working remotely)
+`assignment3` directory, with the `jupyter notebook` command. (See the [Google Cloud Tutorial](http://compsci682-fa20.github.io/gce-tutorial/) for any additional steps you may need to do for setting this up, if you are working remotely)
 
 ### Some Notes
 **NOTE 1:** This year, the `assignment3` code has been tested to be compatible with python version `3.6` (it may work with other versions of `3.x`, but we won't be officially supporting them). You will need to make sure that during your virtual environment setup that the correct version of `python` is used. You can confirm your python version by (1) activating your virtualenv and (2) running `which python`.
@@ -83,7 +83,8 @@ In the Jupyter notebooks `GANS-TensorFlow.ipynb`/`GANS-PyTorch.ipynb` you will l
 ### Submitting your work
 There are **_two_** steps to submitting your assignment:
 
-**1.** Submit a pdf of the completed iPython notebooks to [Gradescope](https://gradescope.com/courses/24357). If you are enrolled in the course, then you should have already been automatically added to the course on Gradescope.
+<!-- https://gradescope.com/courses/24357 -->
+**1.** Submit a pdf of the completed iPython notebooks to [Gradescope](TODO). If you are enrolled in the course, then you should have already been automatically added to the course on Gradescope.
 
 To produce a pdf of your work, you can first convert each of the .ipynb files to HTML. To do this, simply run from your assignment directory
 
@@ -94,4 +95,4 @@ for each of the notebooks, where `FILE.ipynb` is the notebook you want to conver
 
 **Important:** _Please make sure that the submitted notebooks have been run and the cell outputs are visible._
 
-**2.** Submit a zip file of your assignment to [Gradescope](https://gradescope.com/courses/24357). To do this, run the provided `collectSubmission.sh` script, which will produce a file called `assignment3.zip`.
+**2.** Submit a zip file of your assignment to [Gradescope](TODO). To do this, run the provided `collectSubmission.sh` script, which will produce a file called `assignment3.zip`.
