@@ -42,8 +42,8 @@ If you are unfamiliar with Jupyter, you can also refer to our
 
 ### Run code on Colab
 
-We require students to run their codes on Colab, which is a google platform that give every google account a free GPU.
-Colab is compatible with jupyter notebook. You can see it as a server equipped with a Tesla T4.
+We require students to run their codes on Colab, which is a google platform that can run the jupyter notebook.
+It gives every google account a free GPU.
 Pleaser refer to [Colab tutorial](/notes/colab-tutorial). 
 
 ### Some Notes
