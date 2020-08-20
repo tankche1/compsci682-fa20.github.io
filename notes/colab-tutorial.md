@@ -58,13 +58,13 @@ You will see this:
 Now your root dir is "/content/drive/My Drive/cs682/assignment1" and you can run the code in the .ipynb. 
 
 Colab comes with most of common package. If you need to install package or update package (for example numpy), simply run 
-'''
+```
 !pip install numpy
-'''
+```
 To check on existing packages:
-'''
+```
 !pip list
-'''
+```
 
 
 Terminal command are supported but with slightly change (add !):
