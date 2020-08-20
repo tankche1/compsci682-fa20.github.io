@@ -57,14 +57,21 @@ You will see this:
 
 Now your root dir is "/content/drive/My Drive/cs682/assignment1" and you can run the code in the .ipynb. 
 
-Colab comes with most of common package. If you need to install package or update package (for example numpy), simply run '!pip install numpy'. 
-You can run '!pip list' to check on existing packages. 
+Colab comes with most of common package. If you need to install package or update package (for example numpy), simply run 
+'''
+!pip install numpy
+'''
+To check on existing packages:
+'''
+!pip list
+'''
+
 
 Terminal command are supported but with slightly change (add !):
-'''
+```
 ls -> !ls
 nvidia-smi -> !nvidia-smi
 cd dir -> %cd dir (cd need to add % which is special)
-'''
+```
 
 If you have any question, you can refer this [tutorial](https://colab.research.google.com/notebooks/intro.ipynb#scrollTo=-Rh3-Vt9Nev9).
