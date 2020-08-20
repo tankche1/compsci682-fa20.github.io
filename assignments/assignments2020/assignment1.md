@@ -40,9 +40,9 @@ After you have the CIFAR-10 data, you should start the Jupyter notebook server f
 If you are unfamiliar with Jupyter, you can also refer to our
 [Jupyter tutorial](/notes/jupyter-tutorial).
 
-### Start Colab
+### Run code on Colab
 
-We require students to execute their codes on Colab, which is a google platform that give every google account a free GPU.
+We require students to run their codes on Colab, which is a google platform that give every google account a free GPU.
 Colab is compatible with jupyter notebook. You can see it as a server equipped with a Tesla T4.
 Pleaser refer to [Colab tutorial](/notes/colab-tutorial). 
 
