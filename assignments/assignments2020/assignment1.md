@@ -20,7 +20,7 @@ In this assignment you will practice putting together a simple image classificat
 
 Get the code as a zip file [here](http://compsci682-fa20.github.io/assignments/assignments2020/assignment1.zip).
 
-You can follow the setup instructions [here](http://compsci682-fa20.github.io/setup-instructions/).
+<!--You can follow the setup instructions [here](http://compsci682-fa20.github.io/setup-instructions/).--> 
 <!--You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup/).-->
 
 ### Download data:
@@ -39,6 +39,12 @@ After you have the CIFAR-10 data, you should start the Jupyter notebook server f
 
 If you are unfamiliar with Jupyter, you can also refer to our
 [Jupyter tutorial](/notes/jupyter-tutorial).
+
+### Start Colab
+
+We require students to execute their codes on Colab, which is a google platform that give every google account a free GPU.
+Colab is compatible with jupyter notebook. You can see it as a server equipped with a Tesla T4.
+Pleaser refer to [Colab tutorial](/notes/colab-tutorial). 
 
 ### Some Notes
 **NOTE 1:** This year, the `assignment1` code has been tested to be compatible with python version `3.6` (it may work with other versions of `3.x`, but we won't be officially supporting them). You will need to make sure that during your virtual environment setup that the correct version of `python` is used. You can confirm your python version by (1) activating your virtualenv and (2) running `which python`.
