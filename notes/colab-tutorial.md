@@ -7,38 +7,38 @@ permalink: /notes/colab-tutorial/
 
 
 In this class, we will use [Colab](https://colab.research.google.com/notebooks/intro.ipynb) for the
-programming assignments as it provides a free GPU to every google account. Colab is compatible with Jupyter notebook and it lets you write and execute Python
+programming assignments as it provides a free GPU to every google account. Colab is compatible with Jupyter notebooks and it lets you write and execute Python
 code in your web browser.
 
-Colab provide a Tesla T4 (15079MiB) with 64G disk space for every google account. It allows every to continuously run for 12 hours. 
+Colab provides a Tesla T4 (15079MiB) GPU with 64G disk space for every google account. It allows you to continuously run for 12 hours. 
 If you need more than 12 hours, you need to run your code again.
 It is like a server with your own space and environment.
 
 #### How to use
 
-Please upload or directly save the assignment folder on your google drive. (For example, /My Drive/cs682/assignment1).
+Please upload or directly save the assignment folder on your google drive account. (For example, /My Drive/cs682/assignment1).
 
-Go to your [google drive](https://drive.google.com/drive/u/0/folders/15pisR92EJzznxLl5uvUX0WcCtin0D73_).
-Go to the assignment folder(For example: /cs682/assignment1), double click the .ipynb(For example, svm.ipynb) that you want to execute and choose to open with Google Colaboratory.
+Go to your [google drive] account (https://drive.google.com/drive/u/0/folders/15pisR92EJzznxLl5uvUX0WcCtin0D73_).
+Go to the assignment folder(For example: /cs682/assignment1), double click the .ipynb(For example, svm.ipynb) that you want to execute and choose to open with Colab.
 
 You will see a screen like this:
 <div class='fig figcenter'>
   <img src='/assets/colab-tutorial/svm.png'>
 </div>
 
-Now we show how to activate GPU.
+Now, we will show you how to activate a GPU.
 
 Goto Edit->Notebook Setting and choose GPU:
 <div class='fig figcenter'>
   <img src='/assets/colab-tutorial/gpu.png'>
 </div>
 
-You can check your gpu status by type(+code) !nvidia-smi and run it:
+You can check your gpu status by typing (+code) !nvidia-smi and running it:
 <div class='fig figcenter'>
   <img src='/assets/colab-tutorial/check.png'>
 </div>
 
-In order to load data, we need to mount our google drive using following command. Note that you need to do this evertime you open a .ipynb with colab.
+In order to load data, you need to mount your google drive using following command. Note that you need to do this evertime you open a .ipynb file with colab.
 ```
 import os
 print(os.getcwd())
@@ -57,7 +57,8 @@ You will see this:
 
 Now your root dir is "/content/drive/My Drive/cs682/assignment1" and you can run the code in the .ipynb. 
 
-Colab comes with most of common package. If you need to install package or update package (for example numpy), simply run 
+Colab comes with most of the common packages. If you need to install or update a package (for example numpy), simply run:
+
 ```
 !pip install numpy
 ```
@@ -67,11 +68,11 @@ To check on existing packages:
 ```
 
 
-Terminal command are supported but with slightly change (add !):
+Terminal command are supported but with a slight change (add !):
 ```
 ls -> !ls
 nvidia-smi -> !nvidia-smi
 cd dir -> %cd dir (cd need to add % which is special)
 ```
 
-If you have any question, you can refer this [tutorial](https://colab.research.google.com/notebooks/intro.ipynb#scrollTo=-Rh3-Vt9Nev9).
+If you have any questions, you can refer to this [tutorial](https://colab.research.google.com/notebooks/intro.ipynb#scrollTo=-Rh3-Vt9Nev9).
