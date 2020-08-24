@@ -8,7 +8,7 @@ permalink: /notes/colab-tutorial/
 
 In this class, we will use [Colab](https://colab.research.google.com/notebooks/intro.ipynb) for the
 programming assignments since it provides a free GPU to every google account. Colab is compatible with Jupyter notebooks and it lets you write and execute Python
-code in your web browser.
+code in your web browser. You won't needing a GPU for the first assignment.
 
 Colab provides a Tesla T4 (15079MiB) GPU with 64G disk space for every google account. It allows you to continuously run code for 12 hours. 
 If you need more than 12 hours, you need to run your code again. It is like a server with your own space and environment.
@@ -36,7 +36,7 @@ You can check your gpu status by adding a new cell by clicking the +code button 
   <img src='/assets/colab-tutorial/check.png'>
 </div>
 
-In order to load data, you need to mount your Google Drive using following command. Note that you need to do this evertime you open a .ipynb file with Colab.
+In order to load data, you need to mount your Google Drive using following command. Note that you need to do this every time you open a .ipynb file with Colab.
 ```
 import os
 print(os.getcwd())
@@ -66,7 +66,7 @@ To check on existing packages:
 ```
 
 
-Terminal command are supported but with a slight change (add !):
+Terminal commands are supported but with a slight change (add !):
 ```
 ls -> !ls
 nvidia-smi -> !nvidia-smi
