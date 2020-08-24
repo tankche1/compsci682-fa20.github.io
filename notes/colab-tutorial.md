@@ -36,7 +36,7 @@ You can check your gpu status by adding a new cell by clicking the +code button 
   <img src='/assets/colab-tutorial/check.png'>
 </div>
 
-In order to load data, you need to mount your Google Drive using following command. Note that you need to do this evertime you open a .ipynb file with colab.
+In order to load data, you need to mount your Google Drive using following command. Note that you need to do this evertime you open a .ipynb file with Colab.
 ```
 import os
 print(os.getcwd())
