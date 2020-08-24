@@ -13,7 +13,7 @@ code in your web browser.
 Colab provides a Tesla T4 (15079MiB) GPU with 64G disk space for every google account. It allows you to continuously run code for 12 hours. 
 If you need more than 12 hours, you need to run your code again. It is like a server with your own space and environment.
 
-#### How to use
+#### How to Use Colab
 
 Please upload or directly save the assignment folder on your google drive account. (For example, /My Drive/cs682/assignment1).
 
