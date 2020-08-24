@@ -7,19 +7,17 @@ permalink: /notes/colab-tutorial/
 
 
 In this class, we will use [Colab](https://colab.research.google.com/notebooks/intro.ipynb) for the
-programming assignments as it provides a free GPU to every google account. Colab is compatible with Jupyter notebooks and it lets you write and execute Python
+programming assignments since it provides a free GPU to every google account. Colab is compatible with Jupyter notebooks and it lets you write and execute Python
 code in your web browser.
 
-Colab provides a Tesla T4 (15079MiB) GPU with 64G disk space for every google account. It allows you to continuously run for 12 hours. 
-If you need more than 12 hours, you need to run your code again.
-It is like a server with your own space and environment.
+Colab provides a Tesla T4 (15079MiB) GPU with 64G disk space for every google account. It allows you to continuously run code for 12 hours. 
+If you need more than 12 hours, you need to run your code again. It is like a server with your own space and environment.
 
 #### How to use
 
 Please upload or directly save the assignment folder on your google drive account. (For example, /My Drive/cs682/assignment1).
 
-Go to your [google drive] account (https://drive.google.com/drive/u/0/folders/15pisR92EJzznxLl5uvUX0WcCtin0D73_).
-Go to the assignment folder(For example: /cs682/assignment1), double click the .ipynb(For example, svm.ipynb) that you want to execute and choose to open with Colab.
+Go to your [Google Drive account] (https://drive.google.com), then to to the assignment folder (for example: /cs682/assignment1), double click the Jupyter notebook that you want to execute (For example, svm.ipynb) and choose to open with Colab.
 
 You will see a screen like this:
 <div class='fig figcenter'>
@@ -33,12 +31,12 @@ Goto Edit->Notebook Setting and choose GPU:
   <img src='/assets/colab-tutorial/gpu.png'>
 </div>
 
-You can check your gpu status by typing (+code) !nvidia-smi and running it:
+You can check your gpu status by adding a new cell by clicking the +code button at the top, typing !nvidia-smi into it and then running it:
 <div class='fig figcenter'>
   <img src='/assets/colab-tutorial/check.png'>
 </div>
 
-In order to load data, you need to mount your google drive using following command. Note that you need to do this evertime you open a .ipynb file with colab.
+In order to load data, you need to mount your Google Drive using following command. Note that you need to do this evertime you open a .ipynb file with colab.
 ```
 import os
 print(os.getcwd())
