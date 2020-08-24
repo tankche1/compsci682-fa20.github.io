@@ -17,7 +17,7 @@ If you need more than 12 hours, you need to run your code again. It is like a se
 
 Please upload or directly save the assignment folder on your google drive account. (For example, /My Drive/cs682/assignment1).
 
-Go to your [Google Drive account] (https://drive.google.com), then to to the assignment folder (for example: /cs682/assignment1), double click the Jupyter notebook that you want to execute (For example, svm.ipynb) and choose to open with Colab.
+Go to your [Google Drive account] (https://drive.google.com), then to to the assignment folder (for example: /cs682/assignment1), double click the Jupyter notebook that you want to execute (For example, svm.ipynb) and choose to open it with Colab.
 
 You will see a screen like this:
 <div class='fig figcenter'>
