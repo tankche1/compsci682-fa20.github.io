@@ -1,0 +1,48 @@
+<p>In this class, we will use <a href="https://colab.research.google.com/notebooks/intro.ipynb">Colab</a> for the
+programming assignments since it provides a free GPU to every google account. Colab is compatible with Jupyter notebooks and it lets you write and execute Python
+code in your web browser. You won&#39;t needing a GPU for the first assignment.</p>
+<p>Colab provides a Tesla T4 (15079MiB) GPU with 64G disk space for every google account. It allows you to continuously run code for 12 hours. 
+If you need more than 12 hours, you need to run your code again. It is like a server with your own space and environment.</p>
+<h4 id="how-to-use-colab">How to Use Colab</h4>
+<p>Please upload or directly save the assignment folder on your google drive account. (For example, /My Drive/cs682/assignment1).</p>
+<p>Go to your <a href="https://drive.google.com">Google Drive account</a>, then to to the assignment folder (for example: /cs682/assignment1), double click the Jupyter notebook that you want to execute (For example, svm.ipynb) and choose to open it with Colab.</p>
+<p>You will see a screen like this:</p>
+<div class='fig figcenter'>
+  <img src='/assets/colab-tutorial/svm.png'>
+</div>
+
+<p>Now, we will show you how to activate a GPU.</p>
+<p>Goto Edit-&gt;Notebook Setting and choose GPU:</p>
+<div class='fig figcenter'>
+  <img src='/assets/colab-tutorial/gpu.png'>
+</div>
+
+<p>You can check your gpu status by adding a new cell by clicking the +code button at the top, typing !nvidia-smi into it and then running it:</p>
+<div class='fig figcenter'>
+  <img src='/assets/colab-tutorial/check.png'>
+</div>
+
+<p>In order to load data, you need to mount your Google Drive using following command. Note that you need to do this every time you open a .ipynb file with Colab.</p>
+<pre><code><span class="hljs-keyword">import</span> <span class="hljs-built_in">os</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">os</span>.getcwd())
+<span class="hljs-keyword">from</span> google.colab <span class="hljs-keyword">import</span> drive
+drive.mount(<span class="hljs-string">'/content/drive'</span>)
+
+path = <span class="hljs-string">"/content/drive/My Drive/cs682/assignment1"</span>
+<span class="hljs-built_in">os</span>.chdir(path)
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">os</span>.getcwd())
+</code></pre><p>You will see this:</p>
+<div class='fig figcenter'>
+  <img src='/assets/colab-tutorial/mount.png'>
+</div>
+
+<p>Now your root dir is &quot;/content/drive/My Drive/cs682/assignment1&quot; and you can run the code in the .ipynb file. </p>
+<p>Colab comes with most of the common packages. If you need to install or update a package (for example numpy), simply run:</p>
+<pre><code>!pip <span class="hljs-keyword">install</span> numpy
+</code></pre><p>To check on existing packages:</p>
+<pre><code>!pip <span class="hljs-built_in">list</span>
+</code></pre><p>Terminal commands are supported but with a slight change (add !):</p>
+<pre><code><span class="hljs-keyword">ls</span> -&gt; !<span class="hljs-keyword">ls</span>
+nvidia-smi -&gt; !nvidia-smi
+<span class="hljs-keyword">cd</span> <span class="hljs-keyword">dir</span> -&gt; %<span class="hljs-keyword">cd</span> <span class="hljs-keyword">dir</span> (<span class="hljs-keyword">cd</span> need to add % <span class="hljs-keyword">which</span> is special)
+</code></pre><p>If you have any questions, you can refer to this <a href="https://colab.research.google.com/notebooks/intro.ipynb#scrollTo=-Rh3-Vt9Nev9">tutorial</a>.</p>
