@@ -42,8 +42,7 @@ If you are unfamiliar with Jupyter, you can also refer to our
 
 ### Run code on Colab
 
-We require students to run their codes on Colab, which is a google platform that can run the jupyter notebook.
-It gives every google account a free GPU.
+Students wanting to run their code on a GPU can do so using Colab, which is a google platform that can run Jupyter notebooks. You do NOT need a GPU or Colab for the first assignment althought it is required for future assignments.
 Pleaser refer to [Colab tutorial](/notes/colab-tutorial). 
 
 ### Some Notes
