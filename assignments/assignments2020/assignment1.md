@@ -20,7 +20,7 @@ In this assignment you will practice putting together a simple image classificat
 
 Get the code as a zip file [here](http://compsci682-fa20.github.io/assignments/assignments2020/assignment1.zip).
 
-<!--You can follow the setup instructions [here](http://compsci682-fa20.github.io/setup-instructions/).--> 
+You can follow the setup instructions for working locally on your own systems [here](http://compsci682-fa20.github.io/setup-instructions/).--> 
 <!--You can follow the setup instructions [here](http://compsci682-fa19.github.io/setup/).-->
 
 ### Download data:
